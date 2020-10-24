@@ -1,0 +1,16 @@
+INSERT INTO `address_book_tbl` (`id`, `name`, `first_name`, `steert`, `zipcode`, `city`, `created_date`, `modified_date`) VALUES
+(1, 'Rakesh ', 'Rakesh Ingle', 'Downtown', '500006', 'Basel', '2018-12-03 00:00:00', '2018-12-05 13:07:09');
+
+
+
+INSERT INTO `city_tbl` (`id`, `city`) VALUES
+(1, 'Zurich'),
+(2, 'Geneva'),
+(3, 'Basel'),
+(4, 'Bern'),
+(5, 'Lausanne'),
+(6, 'Lucerne'),
+(7, 'St. Gallen'),
+(8, 'Lugano'),
+(9, 'Fribourg'),
+(10, 'Thun');

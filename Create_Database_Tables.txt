@@ -1,0 +1,7 @@
+CREATE DATABASE address_book_db;
+
+USE address_book_db;
+
+CREATE TABLE address_book_tbl ( id tinyint(10) NOT NULL AUTO_INCREMENT, name varchar(200) NOT NULL, first_name varchar(200) NOT NULL, steert text NOT NULL, zipcode varchar(10) NOT NULL, city varchar(200) NOT NULL, created_date datetime NOT NULL, modified_date datetime NOT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+CREATE TABLE city_tbl ( id tinyint(10) NOT NULL AUTO_INCREMENT, city varchar(200) NOT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
